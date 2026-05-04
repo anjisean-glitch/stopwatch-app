@@ -4,7 +4,7 @@ A responsive stopwatch app built with vanilla JavaScript featuring start, stop, 
 A clean and simple stopwatch built using **HTML, CSS, and JavaScript**.
 
 🔗 **Live Demo:**  
-https://yourusername.github.io/stopwatch-app/
+ https://anjisean-glitch.github.io/stopwatch-app/
 
 ---
 
