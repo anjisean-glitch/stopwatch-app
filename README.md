@@ -1,43 +1,49 @@
-# ⏱️ Stopwatch App
-A responsive stopwatch app built with vanilla JavaScript featuring start, stop, and reset functionality.
+# JavaScript Stopwatch App
 
-A clean and simple stopwatch built using **HTML, CSS, and JavaScript**.
+A simple browser-based stopwatch built with HTML, CSS, and vanilla JavaScript. It tracks elapsed time in hours, minutes, and seconds.
 
-🔗 **Live Demo:**  
- https://anjisean-glitch.github.io/stopwatch-app/
+## Live Demo
 
----
+[View the Live App](https://anjisean-glitch.github.io/stopwatch-app/)
 
-## 🚀 Features
+## Features
 
-- ▶️ Start the stopwatch  
-- ⏸️ Stop / pause functionality  
-- 🔄 Reset to 00:00:00  
-- ⏱️ Real-time time tracking (HH:MM:SS format)  
-- 🎯 Simple and responsive UI  
+- Start the stopwatch.
+- Stop and pause the timer.
+- Reset the timer to `00:00:00`.
+- Display elapsed time in HH:MM:SS format.
+- Prevent multiple timer intervals from running simultaneously.
+- Simple, responsive user interface.
 
----
+## Technologies Used
 
-## 🛠️ Tech Stack
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
-- HTML  
-- CSS  
-- JavaScript  
+## How It Works
 
----
+The application uses JavaScript's `setInterval()` method to update the stopwatch every second.
 
-## 📸 Preview
+The `clearInterval()` method stops the timer, while a counter variable tracks the elapsed seconds.
 
-<img width="960" height="420" alt="Screenshot of stopwatch (74)" src="https://github.com/user-attachments/assets/c881074a-481a-4d86-acdd-f56f8669e3f0" />
+The application converts the elapsed seconds into hours, minutes, and seconds for display.
 
+## What I Learned
 
----
+Through this project, I practiced:
 
-## 🧠 What I Learned
+- Using `setInterval()` and `clearInterval()`.
+- Managing application state with JavaScript variables.
+- Converting and formatting elapsed time.
+- Manipulating DOM elements.
+- Handling button click events.
+- Preventing multiple timer intervals from running simultaneously.
 
-- How to use `setInterval()` and `clearInterval()`  
-- Managing application state in JavaScript  
-- Formatting time (seconds → HH:MM:SS)  
-- DOM manipulation and event handling  
+## Preview
 
----
+![JavaScript Stopwatch App](https://github.com/user-attachments/assets/c881074a-481a-4d86-acdd-f56f8669e3f0)
+
+## About
+
+A practical JavaScript project exploring time-based functionality, event handling, and interactive browser interfaces.
